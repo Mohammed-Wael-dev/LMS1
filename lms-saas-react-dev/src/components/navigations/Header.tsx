@@ -204,7 +204,7 @@ const Header: React.FC<HeaderProps> = ({
                         return;
                       } else if (
                         i.id === "assessment-result" &&
-                        !currentUser.has_completed_assessment
+                        !(currentUser.has_completed_assessment ?? false)
                       ) {
                         // Show assessment link instead of result if not completed
                         return (

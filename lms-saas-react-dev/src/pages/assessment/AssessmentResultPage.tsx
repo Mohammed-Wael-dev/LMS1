@@ -1,6 +1,5 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import { useNavigate } from "react-router";
-import { useTranslation } from "react-i18next";
 import { useQuery, useMutation } from "@tanstack/react-query";
 import { API_ENDPOINTS } from "../../utils/constants";
 import { get, post } from "../../api";
@@ -50,12 +49,11 @@ interface RecommendationsResponse {
 }
 
 const AssessmentResultPage: React.FC = () => {
-  const { t } = useTranslation();
   const navigate = useNavigate();
   const [isResetting, setIsResetting] = useState(false);
 
   // Fetch assessment result
-  const { data: result, isLoading, error, refetch } = useQuery<AssessmentResult>({
+  const { data: result, isLoading, error } = useQuery<AssessmentResult>({
     queryKey: ["assessment-result"],
     queryFn: async () => {
       const res = await get(API_ENDPOINTS.assessmentResult);

@@ -29,6 +29,7 @@ interface User {
   phone: string | null;
   location: string | null;
   data_joined: string;
+  has_completed_assessment?: boolean;
 }
 
 interface StudentStats {

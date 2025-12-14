@@ -167,8 +167,8 @@ const AssessmentPage: React.FC = () => {
 
   if (isError || !questions || (Array.isArray(questions) && questions.length === 0)) {
     const errorMessage = error
-      ? error?.response?.data?.error || 
-        error?.response?.data?.data?.error ||
+      ? (error as any)?.response?.data?.error || 
+        (error as any)?.response?.data?.data?.error ||
         error?.message || 
         "حدث خطأ أثناء تحميل الأسئلة. يرجى المحاولة مرة أخرى."
       : "لا توجد أسئلة متاحة في الوقت الحالي.";
@@ -178,7 +178,7 @@ const AssessmentPage: React.FC = () => {
       hasQuestions: !!questions,
       questionsLength: questions?.length,
       error: error?.message,
-      errorResponse: error?.response?.data
+      errorResponse: (error as any)?.response?.data
     });
     
     return (
