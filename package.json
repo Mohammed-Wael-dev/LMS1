@@ -1,0 +1,13 @@
+{
+  "name": "new-folder-(50)",
+  "version": "1.0.0",
+  "description": "- **Backend**: Django (Python) في مجلد `LMS-saas-django-main`\r - **Frontend**: React + Vite في مجلد `lms-saas-react-dev/lms-saas-react-dev`",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}

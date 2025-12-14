@@ -1,0 +1,162 @@
+{
+  "loading": "جارٍ التحميل…",
+  "handleComplete": {
+    "success": "رائع! تم إكمال الدرس.",
+    "error": "حدث خطأ ما."
+  },
+  "backBtn": "الرجوع إلى تفاصيل الدورة",
+  "progress": "التقدّم",
+  "courseContent": "محتوى الدورة",
+  "lessonNotes": "ملاحظات الدرس",
+  "QA": "سؤال وجواب",
+  "groups": "المجموعات",
+  "examSection": {
+    "submitAssessment": "تم الإرسال",
+    "submitExam": {
+      "success": "تم الإرسال (المحاولة {{nextAttempt}})",
+      "error": "لديك فقط {{MAX_ATTEMPTS}} محاولة."
+    },
+    "timeLimit": "الحد الزمني",
+    "min": "د",
+    "passingScore": "درجة الاجتياز",
+    "attempt": "محاولة",
+    "of": "من،",
+    "ansAll": "أجب عن جميع الأسئلة للإرسال.",
+    "attemptsLeft": " المحاولات المتبقية",
+    "noAttempts": "لا توجد محاولات أخرى متبقية.",
+    "submitting": "جارٍ الإرسال...",
+    "submit": "إرسال",
+    "quiz": "اختبار ",
+    "exam": "اختبار",
+    "loadRes": "جارٍ تحميل النتائج...",
+    "submittedAt": "تم الإرسال في",
+    "score": "الدرجة",
+    "passed": "ناجح",
+    "failed": "راسب",
+    "pass": "اجتياز",
+    "correct": "صحيح",
+    "incorrect": "خطأ",
+    "noRetake": "تم الاجتياز — لا إعادة",
+    "noAttemptsLeft": "لا توجد محاولات متبقية",
+    "retake": "إعادة المحاولة",
+    "continue": "متابعة التعلّم",
+    "viewResult": "عرض تفاصيل النتيجة",
+    "resultModal": {
+      "close": "إغلاق نافذة النتيجة",
+      "attemptLabel": "المحاولة #{{attempt}}",
+      "title": "نتيجة {{type}}",
+      "subtitle": "{{correct}} من {{total}} إجابات صحيحة",
+      "scoreLabel": "الدرجة",
+      "passed": "أحسنت! لقد اجتزت هذا {{type}}.",
+      "failed": "واصل المحاولة! يمكنك إعادة هذا {{type}}.",
+      "passedTag": "ناجح",
+      "failedTag": "راسب",
+      "viewCertificate": "عرض الشهادة",
+      "retake": "إعادة الاختبار"
+    }
+  },
+  "notesSection": {
+    "handleSave": {
+      "success": "تم حفظ الملاحظات بنجاح!",
+      "error": "خطأ غير معروف"
+    },
+    "save": "حفظ الملاحظات",
+    "saveSucceed": "✓ تم حفظ الملاحظات لهذا الدرس",
+    "form": {
+      "title": "العنوان",
+      "placeholder": "دوّن ملاحظاتك أثناء المشاهدة...",
+      "cancel": "إلغاء",
+      "edit": "✏️ تعديل",
+      "save": "حفظ"
+    }
+  },
+  "qaSection": {
+    "replyForm": {
+      "answerUpdated": "تم تحديث الإجابة",
+      "replyPosted": "تم نشر الرد",
+      "replyingTo": "الرد على",
+      "editAnswer": "تعديل الإجابة",
+      "updateYourAnswer": "حدّث إجابتك...",
+      "writeReply": "اكتب ردك...",
+      "cancel": "إلغاء",
+      "updateAnswer": "تحديث الإجابة",
+      "reply": "رد"
+    },
+    "handleSubmitQuestion": {
+      "questionUpdated": "تم تحديث السؤال",
+      "questionPosted": "تم نشر السؤال",
+      "error": "فشل إرسال السؤال"
+    },
+    "title": "الأسئلة والأجوبة",
+    "edit": "✏️ تعديل",
+    "instructor": "المدرس",
+    "empty": "لا توجد أسئلة لهذا الدرس.",
+    "cancelEdit": "إلغاء التعديل",
+    "qForm": {
+      "error": "يُرجى كتابة شيء ما.",
+      "editPlaceholder": "حدّث سؤالك...",
+      "addPlaceholder": "اكتب سؤالك هنا...",
+      "editBtn": "تحديث السؤال",
+      "addBtn": "طرح سؤال"
+    }
+  },
+  "reactions": {
+    "removeReact": "إزالة التفاعل",
+    "like": "أعجبني",
+    "love": "أحببته",
+    "clap": "تصفيق"
+  },
+  "content": {
+    "back": "رجوع",
+    "next": "التالي",
+    "markComplete": "وضع علامة كمكتمل",
+    "downloading": "جارٍ التنزيل…",
+    "download": "تنزيل",
+    "noVideo": "الفيديو غير متاح لهذا الدرس بعد — يتم عرض الملصق فقط."
+  },
+  "video": {
+    "error": "لا يمكن تشغيل هذا المصدر (الأذونات/التنسيق/CORS).",
+    "speed": "السرعة"
+  },
+  "groupsSection": {
+    "title": "مجموعات الدراسة",
+    "subtitle": "انضمّ إلى مجموعات الدراسة للتعاون مع زملائك ومناقشة محتوى الدورة.",
+    "membersLabel": "الأعضاء:",
+    "members_one": "{{count}} عضو",
+    "members_other": "{{count}} أعضاء",
+    "join": "انضمام",
+    "leave": "مغادرة",
+    "recentDiscussion": "نقاش حديث",
+    "showChat": "عرض المحادثة",
+    "noMessages": "لا توجد رسائل بعد. ابدأ المحادثة!",
+    "emptyTitle": "لا توجد مجموعات دراسة بعد",
+    "emptySubtitle": "ستظهر مجموعات الدراسة هنا عندما ينشئها المدرس."
+  },
+  "chats": {
+    "groupHeader": {
+      "membersCount_one": "{{count}} عضو",
+      "membersCount_other": "{{count}} أعضاء"
+    },
+    "sidebar": {
+      "membersTitle": "الأعضاء",
+      "online": "متصل",
+      "offline": "غير متصل",
+      "leaveGroup": "مغادرة المجموعة"
+    },
+    "chatHeader": {
+      "title": "محادثة المجموعة",
+      "onlineNow": "{{count}} متصل الآن"
+    },
+    "discussion": {
+      "noMessagesTitle": "لا توجد رسائل بعد",
+      "noMessagesSubtitle": "ابدأ المحادثة مع مجموعة الدراسة!"
+    },
+    "composer": {
+      "placeholder": "اكتب رسالة إلى {{groupName}}...",
+      "hint": "اضغط Enter للإرسال، وShift+Enter لسطر جديد"
+    }
+  },
+  "time": {
+    "now": "الآن"
+  }
+}

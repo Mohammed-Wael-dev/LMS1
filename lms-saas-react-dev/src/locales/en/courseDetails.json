@@ -1,0 +1,111 @@
+{
+  "ratings": "{{reviews}} ratings",
+  "students": "{{students}} students",
+  "courses": "{{courses}} courses",
+  "createdBy": "Created by {{instructor}}",
+  "lastUpdated": "Last updated {{lastUpdated}}",
+  "enrollError": "Please enroll first.",
+  "enrollBtnTitle": "Start / Preview",
+  "enrolled": "Enrolled",
+  "rate": "Rate This Course",
+  "details": {
+    "guarantee": "30-Day Money-Back Guarantee",
+    "includes": "This course includes:",
+    "time": "{{hours}} on-demand video",
+    "access": "Access on mobile and TV",
+    "certificate": "Certificate of completion"
+  },
+  "tabs": {
+    "overview": "Overview",
+    "curriculum": "Curriculum",
+    "instructor": "Instructor",
+    "reviews": "Reviews",
+    "assessments": "Assessments"
+  },
+  "requirements": "Requirements:",
+  "description": "Description:",
+  "content": "Course Content",
+  "studentReviews": "Student Reviews",
+  "rateModal": {
+    "title": "How would you rate this course?",
+    "updateReview": "Update Your Review",
+    "rate": "Rate This Course",
+    "update": "Update Review",
+    "submit": "Submit Review",
+    "updating": "Updating...",
+    "submitting": "Submitting...",
+    "labels": {
+      "terrible": "Terrible",
+      "poor": "Poor",
+      "average": "Average",
+      "good": "Good",
+      "excellent": "Excellent"
+    },
+    "handleSubmit": {
+      "missingCourse": "Missing course id.",
+      "missingRate": "Please select rating",
+      "success": "Your review has been updated.",
+      "updated": "Updated.",
+      "sent": "Your review has been sent.",
+      "submit": "Submitted.",
+      "error": "Something went wrong!"
+    },
+    "reasons": {
+      "title": "What did you",
+      "subTitle": "about this course?",
+      "like": "like",
+      "dislike": "dislike"
+    },
+    "review": {
+      "title": "Tell others about your experience (optional)",
+      "placeholder": "Share your thoughts about the course content, instructor, and overall experience...",
+      "length": "{{length}}/500 characters"
+    },
+    "recommend": {
+      "wouldRecommend": "Would you recommend this course to others?",
+      "yes": "Yes, I recommend it",
+      "no": "No, I don't recommend it"
+    },
+    "privacy": {
+      "submit": "Submit this review anonymously",
+      "explain": "Your review will be public, but your name won't be shown if you choose anonymous."
+    },
+    "cancel": "Cancel"
+  },
+  "courseContent": {
+    "openExam": "Open Exam",
+    "openQuiz": "Open Quiz",
+    "openAssessment": "Open Assessment",
+    "exam" :"Exam",
+    "quiz": "Quiz",
+    "assessment": "Assessment",
+    "m": "m",
+    "pass": "pass",
+    "title": "Course Content",
+    "modules": "modules",
+    "lessons": "lessons",
+    "free": "free"
+  },
+  "assessmentsPage": {
+    "emptyState": {
+      "title": "No assessment selected",
+      "desc": "Choose an assessment to view its statistics.",
+      "back": "Back"
+    },
+    "statsCards": {
+      "header": "Assessment Statistics",
+      "questionLabel": "Questions",
+      "attemptedLabel": "Students attempted",
+      "totalLabel": "Total answers",
+      "answersLabel": "Avg answers / question",
+      "title": "No responses yet",
+      "desc": "When students submit attempts, you’ll see distribution charts here."
+    },
+    "question": "Question {{qi}}",
+    "answers": "{{total}} Answers",
+    "top": "Top:"
+  },
+  "time": {
+    "now": "Now"
+  }
+}

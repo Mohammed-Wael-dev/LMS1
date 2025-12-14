@@ -1,0 +1,111 @@
+{
+  "ratings": "{{reviews}} valoraciones",
+  "students": "{{students}} estudiantes",
+  "courses": "{{courses}} cursos",
+  "createdBy": "Creado por {{instructor}}",
+  "lastUpdated": "Última actualización {{lastUpdated}}",
+  "enrollError": "Por favor, inscríbete primero.",
+  "enrollBtnTitle": "Comenzar / Vista previa",
+  "enrolled": "Inscrito",
+  "rate": "Califica este curso",
+  "details": {
+    "guarantee": "Garantía de reembolso de 30 días",
+    "includes": "Este curso incluye:",
+    "time": "{{hours}} de video a demanda",
+    "access": "Acceso en móvil y TV",
+    "certificate": "Certificado de finalización"
+  },
+  "tabs": {
+    "overview": "Descripción general",
+    "curriculum": "Plan de estudios",
+    "instructor": "Instructor",
+    "reviews": "Reseñas",
+    "assessments": "Evaluacións"
+  },
+  "requirements": "Requisitos:",
+  "description": "Descripción:",
+  "content": "Contenido del curso",
+  "studentReviews": "Reseñas de estudiantes",
+  "rateModal": {
+    "title": "¿Cómo calificarías este curso?",
+    "updateReview": "Actualizar tu reseña",
+    "rate": "Calificar este curso",
+    "update": "Actualizar reseña",
+    "submit": "Enviar reseña",
+    "updating": "Actualizando...",
+    "submitting": "Enviando...",
+    "labels": {
+      "terrible": "Terrible",
+      "poor": "Mala",
+      "average": "Promedio",
+      "good": "Buena",
+      "excellent": "Excelente"
+    },
+    "handleSubmit": {
+      "missingCourse": "Falta el ID del curso.",
+      "missingRate": "Por favor, selecciona una calificación",
+      "success": "Tu reseña ha sido actualizada.",
+      "updated": "Actualizado.",
+      "sent": "Tu reseña ha sido enviada.",
+      "submit": "Enviado.",
+      "error": "¡Algo salió mal!"
+    },
+    "reasons": {
+      "title": "¿Qué",
+      "subTitle": "de este curso?",
+      "like": "te gustó",
+      "dislike": "no te gustó"
+    },
+    "review": {
+      "title": "Cuéntales a otros sobre tu experiencia (opcional)",
+      "placeholder": "Comparte tus impresiones sobre el contenido del curso, el instructor y la experiencia general...",
+      "length": "{{length}}/500 caracteres"
+    },
+    "recommend": {
+      "wouldRecommend": "¿Recomendarías este curso a otros?",
+      "yes": "Sí, lo recomiendo",
+      "no": "No, no lo recomiendo"
+    },
+    "privacy": {
+      "submit": "Enviar esta reseña de forma anónima",
+      "explain": "Tu reseña será pública, pero tu nombre no se mostrará si eliges el modo anónimo."
+    },
+    "cancel": "Cancelar"
+  },
+  "courseContent": {
+    "openExam": "Abrir examen",
+    "openQuiz": "Abrir cuestionario",
+    "openAssessment": "Abrir evaluación",
+    "exam": "Examen",
+    "quiz": "Cuestionario",
+    "assessment": "Evaluación",
+    "m": "min",
+    "pass": "aprobación",
+    "title": "Contenido del curso",
+    "modules": "módulos",
+    "lessons": "lecciones",
+    "free": "gratis"
+  },
+  "assessmentsPage": {
+    "emptyState": {
+      "title": "Ninguna evaluación seleccionada",
+      "desc": "Elige una evaluación para ver sus estadísticas.",
+      "back": "Volver"
+    },
+    "statsCards": {
+      "header": "Estadísticas de la evaluación",
+      "questionLabel": "Preguntas",
+      "attemptedLabel": "Estudiantes que intentaron",
+      "totalLabel": "Respuestas totales",
+      "answersLabel": "Promedio de respuestas por pregunta",
+      "title": "Aún no hay respuestas",
+      "desc": "Cuando los estudiantes envíen intentos, verás aquí los gráficos de distribución."
+    },
+    "question": "Pregunta {{qi}}",
+    "answers": "{{total}} respuestas",
+    "top": "Más elegido:"
+  },
+  "time": {
+    "now": "Ahora"
+  }
+}

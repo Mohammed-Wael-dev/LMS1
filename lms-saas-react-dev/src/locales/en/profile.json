@@ -1,0 +1,38 @@
+{
+  "changePic": "Change profile photo",
+  "picError": "Please select an image file.",
+  "picSuccess": "Profile image updated successfully!",
+  "cancel": "Cancel",
+  "editProfile": "Edit Profile",
+  "download": "Download",
+  "downloadDone": "Certificate download started!",
+  "tabs": {
+    "profileSettings": "Profile Settings",
+    "achievements": "Achievements",
+    "certificates": "Certificates"
+  },
+  "joined": "Joined",
+  "editForm": {
+    "fn": "First Name",
+    "fnError": "First Name is required",
+    "ln": "Last Name",
+    "lnError": "Last Name is required",
+    "email": "Email",
+    "emailError": {
+      "required": "Email is required",
+      "valid": "Please enter a valid email."
+    },
+    "phone": "Phone",
+    "phoneError": {
+      "pattern": "Phone must starts with 07 and consists of 10 digits",
+      "length": "Phone must consists of 10 digits"
+    },
+    "location": "Location",
+    "bio": "Bio",
+    "success": "Changes saved successfully!",
+    "save": "Save Changes"
+  },
+  "time": {
+    "now": "Now"
+  }
+}

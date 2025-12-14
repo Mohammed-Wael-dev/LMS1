@@ -1,0 +1,111 @@
+{
+  "ratings": "{{reviews}} تقييم",
+  "students": "{{students}} طالب",
+  "courses": "{{courses}} دورة",
+  "createdBy": "أنشأها {{instructor}}",
+  "lastUpdated": "آخر تحديث {{lastUpdated}}",
+  "enrollError": "يُرجى التسجيل أولًا.",
+  "enrollBtnTitle": "ابدأ / معاينة",
+  "enrolled": "مسجَّل",
+  "rate": "قيّم هذه الدورة",
+  "details": {
+    "guarantee": "ضمان استرداد الأموال خلال 30 يومًا",
+    "includes": "تتضمن هذه الدورة:",
+    "time": "{{hours}} ساعة من الفيديو حسب الطلب",
+    "access": "إمكانية الوصول عبر الجوال والتلفاز",
+    "certificate": "شهادة إتمام"
+  },
+  "tabs": {
+    "overview": "نظرة عامة",
+    "curriculum": "المنهج",
+    "instructor": "المدرس",
+    "reviews": "التقييمات",
+    "assessments": "الاختبارات"
+  },
+  "requirements": "المتطلبات:",
+  "description": "الوصف:",
+  "content": "محتوى الدورة",
+  "studentReviews": "تقييمات الطلاب",
+  "rateModal": {
+    "title": "كيف تُقيّم هذه الدورة؟",
+    "updateReview": "حدّث تقييمك",
+    "rate": "قيّم هذه الدورة",
+    "update": "تحديث التقييم",
+    "submit": "إرسال التقييم",
+    "updating": "جارٍ التحديث...",
+    "submitting": "جارٍ الإرسال...",
+    "labels": {
+      "terrible": "سيّئ جدًا",
+      "poor": "ضعيف",
+      "average": "متوسط",
+      "good": "جيد",
+      "excellent": "ممتاز"
+    },
+    "handleSubmit": {
+      "missingCourse": "معرّف الدورة مفقود.",
+      "missingRate": "يُرجى اختيار تقييم.",
+      "success": "تم تحديث تقييمك.",
+      "updated": "تم التحديث.",
+      "sent": "تم إرسال تقييمك.",
+      "submit": "تم الإرسال.",
+      "error": "حدث خطأ ما!"
+    },
+    "reasons": {
+      "title": "ما الذي",
+      "subTitle": "في هذه الدورة؟",
+      "like": "أعجبك",
+      "dislike": "لم يعجبك"
+    },
+    "review": {
+      "title": "أخبر الآخرين عن تجربتك (اختياري)",
+      "placeholder": "شارك رأيك حول محتوى الدورة، والمدرس، والتجربة العامة...",
+      "length": "{{length}}/500 حرفًا"
+    },
+    "recommend": {
+      "wouldRecommend": "هل توصي بهذه الدورة للآخرين؟",
+      "yes": "نعم، أوصي بها",
+      "no": "لا، لا أوصي بها"
+    },
+    "privacy": {
+      "submit": "إرسال هذا التقييم بشكل مجهول",
+      "explain": "سيكون تقييمك عامًا، لكن لن يظهر اسمك إذا اخترت الإرسال كمجهول."
+    },
+    "cancel": "إلغاء"
+  },
+  "courseContent": {
+    "openExam": "فتح الاختبار",
+    "openAssessment": "فتح التقييم",
+    "openQuiz": "فتح الاختبار القصير",
+    "exam": "اختبار",
+    "assessment": "تقييم",
+    "quiz": "اختبار قصير",
+    "m": "د",
+    "pass": "اجتياز",
+    "title": "محتوى الدورة",
+    "modules": "وحدات",
+    "lessons": "دروس",
+    "free": "مجاني"
+  },
+  "assessmentsPage": {
+    "emptyState": {
+      "title": "لم يتم اختيار أي تقييم",
+      "desc": "اختر تقييمًا لعرض إحصاءاته.",
+      "back": "رجوع"
+    },
+    "statsCards": {
+      "header": "إحصاءات التقييم",
+      "questionLabel": "الأسئلة",
+      "attemptedLabel": "الطلاب الذين حاولوا",
+      "totalLabel": "إجمالي الإجابات",
+      "answersLabel": "متوسط الإجابات لكل سؤال",
+      "title": "لا توجد استجابات بعد",
+      "desc": "عندما يقدّم الطلاب محاولاتهم، ستظهر مخططات التوزيع هنا."
+    },
+    "question": "السؤال {{qi}}",
+    "answers": "{{total}} إجابة",
+    "top": "الأكثر اختيارًا:"
+  },
+  "time": {
+    "now": "الآن"
+  }
+}

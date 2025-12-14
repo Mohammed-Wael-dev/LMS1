@@ -1,0 +1,59 @@
+{
+  "title": "Todos los cursos",
+  "subTitle": "{{totalCount}} cursos disponibles",
+  "emptyState": {
+    "title": "No se encontraron cursos",
+    "subTitle": "Prueba ajustar tus filtros o términos de búsqueda"
+  },
+  "sort": {
+    "sortOptions": {
+      "most_popular": "Más populares",
+      "high_rating": "Mejor calificados",
+      "newest": "Más recientes",
+      "price_low_to_high": "Precio: de menor a mayor",
+      "price_high_to_low": "Precio: de mayor a menor"
+    },
+    "search": "Buscar cursos..."
+  },
+  "filters": {
+    "title": "Filtros",
+    "category": {
+      "title": "Categoría",
+      "all": "Todos"
+    },
+    "level": {
+      "title": "Nivel",
+      "all": "Todos los niveles",
+      "beginner": "Principiante",
+      "intermediate": "Intermedio",
+      "advanced": "Avanzado"
+    },
+    "price": {
+      "title": "Precio",
+      "all": "todos",
+      "free": "gratis",
+      "paid": "de pago"
+    },
+    "clear": "Borrar todos los filtros"
+  },
+  "card": {
+    "handleEnroll": {
+      "authError": "¡Por favor, inicia sesión primero!",
+      "roleError": "¡Por favor, inicia sesión como estudiante!",
+      "success": "¡Te has inscrito correctamente!",
+      "failFallback": "No se pudo inscribir",
+      "errorFallback": "Error inesperado"
+    },
+    "bestseller": "Más vendido",
+    "preview": "Vista previa",
+    "free": "Gratis",
+    "whatYouLearn": "Lo que aprenderás:",
+    "enrolling": "Inscribiendo...",
+    "enrollNow": "Inscribirse ahora",
+    "viewCourse": "Ver tu curso",
+    "startLearning": "Comenzar a aprender"
+  },
+  "time": {
+    "now": "Ahora"
+  }
+}

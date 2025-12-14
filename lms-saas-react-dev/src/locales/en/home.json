@@ -1,0 +1,47 @@
+{
+  "learn": "Learn",
+  "without": "Without",
+  "limits": "Limits",
+  "description": "Discover thousands of courses and specializations from the world's best instructors. Learn at your own pace and speed.",
+  "startLearningToday": "Start Learning Today",
+  "exploreCourses": "Explore Courses",
+  "students": "Students",
+  "courses": "Courses",
+  "languages": "Languages",
+  "featuredCourse": "Featured Course",
+  "completeReactCourse": "Complete React Developer Course",
+  "progress": "Progress",
+  "lessonsCompleted": "{{completed}} of {{total}} lessons completed",
+  "timeRemaining": "{{hours}}h {{minutes}}m remaining",
+  "exploreTopCategories": "Explore Top Categories",
+  "discoverCoursesDescription": "Discover courses in the most in-demand skills and advance your career",
+  "coursesCount": "{{count}} courses",
+  "featuredCourses": "Featured Courses",
+  "featuredCoursesDescription": "Hand-picked courses by our experts to help you learn the most in-demand skills",
+  "bestseller": "Bestseller",
+  "previewCourse": "Preview Course",
+  "reviews": "reviews",
+  "onlineCourses": "Online Courses",
+  "registeredStudents": "Registered Students",
+  "certificatesIssued": "Certificates Issued",
+  "successRate": "Success Rate",
+  "title": "What Our Students Say",
+  "subtitle": "Join thousands of successful learners who transformed their careers",
+  "roles": {
+    "softwareEngineerGoogle": "Software Engineer at Google",
+    "dataScientistMicrosoft": "Data Scientist at Microsoft",
+    "uxDesignerApple": "UX Designer at Apple"
+  },
+  "quotes": {
+    "sarahQuote": "The courses here transformed my career. The quality of instruction is exceptional.",
+    "michaelQuote": "I went from beginner to landing my dream job in just 6 months of learning.",
+    "emilyQuote": "The practical projects and real-world applications made all the difference."
+  },
+  "title2": "Ready to Start Your Learning Journey?",
+  "subtitle2": "Join millions of learners worldwide and unlock your potential with our expert-led courses",
+  "getStartedFree": "Get Started Free",
+  "browseCourses": "Browse Courses",
+  "time": {
+    "now": "Now"
+  }
+}

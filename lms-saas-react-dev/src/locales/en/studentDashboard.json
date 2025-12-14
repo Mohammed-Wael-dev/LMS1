@@ -1,0 +1,68 @@
+{
+  "header": {
+    "welcome": "Welcome back, {{name}}! 👋",
+    "subtitle": "Continue your learning journey and achieve your goals.",
+    "overallProgress": "Overall Progress"
+  },
+
+  "tabs": {
+    "myCourses": "My Courses",
+    "achievements": "Achievements"
+  },
+
+  "coursesSection": {
+    "title": "My Courses",
+    "exploreMore": "Explore More Courses"
+  },
+
+  "quickActions": {
+    "title": "Quick Actions",
+    "browseNew": "Browse New Courses",
+    "viewCerts": "View Certificates",
+    "updateProfile": "Update Profile"
+  },
+
+  "achievementsSection": {
+    "title": "Achievements",
+    "items": {
+      "1": {
+        "title": "First Course Completed",
+        "desc": "Completed your first course"
+      },
+      "2": {
+        "title": "Week Streak",
+        "desc": "Learned for 7 consecutive days"
+      },
+      "3": {
+        "title": "Fast Learner",
+        "desc": "Completed 3 courses in one month"
+      },
+      "4": {
+        "title": "Quiz Master",
+        "desc": "Scored 100% on 5 quizzes"
+      },
+      "5": {
+        "title": "Community Helper",
+        "desc": "Helped 10 fellow students"
+      },
+      "6": {
+        "title": "Dedicated Student",
+        "desc": "Spent 100+ hours learning"
+      }
+    }
+  },
+  "headerStats": {
+    "coursesEnrolled": "Courses Enrolled",
+    "completedCourses": "Completed Courses",
+    "certificates": "Certificates",
+    "newCourses": "New Courses",
+    "thisMonth": "This Month"
+  },
+  "enrolledCourses": {
+    "continue": "Continue",
+    "lastAccessed": "Last accessed"
+  },
+  "time": {
+    "now": "Now"
+  }
+}

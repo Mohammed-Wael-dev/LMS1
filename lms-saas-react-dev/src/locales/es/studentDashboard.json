@@ -1,0 +1,64 @@
+{
+  "header": {
+    "welcome": "¡Bienvenido de nuevo, {{name}}! 👋",
+    "subtitle": "Continúa tu camino de aprendizaje y alcanza tus metas.",
+    "overallProgress": "Progreso general"
+  },
+  "tabs": {
+    "myCourses": "Mis cursos",
+    "achievements": "Logros"
+  },
+  "coursesSection": {
+    "title": "Mis cursos",
+    "exploreMore": "Explorar más cursos"
+  },
+  "quickActions": {
+    "title": "Acciones rápidas",
+    "browseNew": "Explorar cursos nuevos",
+    "viewCerts": "Ver certificados",
+    "updateProfile": "Actualizar perfil"
+  },
+  "achievementsSection": {
+    "title": "Logros",
+    "items": {
+      "1": {
+        "title": "Primer curso completado",
+        "desc": "Completaste tu primer curso"
+      },
+      "2": {
+        "title": "Racha semanal",
+        "desc": "Aprendiste durante 7 días consecutivos"
+      },
+      "3": {
+        "title": "Aprendiz rápido",
+        "desc": "Completaste 3 cursos en un mes"
+      },
+      "4": {
+        "title": "Maestro de cuestionarios",
+        "desc": "Obtuviste 100% en 5 cuestionarios"
+      },
+      "5": {
+        "title": "Ayudante de la comunidad",
+        "desc": "Ayudaste a 10 compañeros"
+      },
+      "6": {
+        "title": "Estudiante dedicado",
+        "desc": "Invertiste más de 100 horas aprendiendo"
+      }
+    }
+  },
+  "headerStats": {
+    "coursesEnrolled": "Cursos Inscritos",
+    "completedCourses": "Cursos Completados",
+    "certificates": "Certificados",
+    "newCourses": "Cursos Nuevos",
+    "thisMonth": "Este Mes"
+  },
+  "enrolledCourses": {
+    "continue": "Continuar",
+    "lastAccessed": "Último acceso"
+  },
+  "time": {
+    "now": "Ahora"
+  }
+}

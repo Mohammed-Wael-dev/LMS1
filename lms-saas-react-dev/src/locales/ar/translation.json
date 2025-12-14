@@ -1,0 +1,22 @@
+{
+  "header": {
+    "home": "الرئيسية",
+    "courses": "الدورات",
+    "myLearning": "رحلتي التعليمية",
+    "teach": "التدريس",
+    "notifications": "الإشعارات",
+    "cart": "عربة التسوق",
+    "profileSettings": "الملف الشخصي",
+    "instructorDashboard": "لوحة تحكم المدرس",
+    "signin":"تسجيل دخول",
+    "signup":"إنشاء حساب",
+    "signout":"تسجيل خروج",
+    "lang": "اللغة",
+    "search": "ابحث عن اي شئ..."
+  },
+  "time": {
+    "now": "الآن"
+  },
+  "previous": "السابق",
+  "next": "التالي"
+}

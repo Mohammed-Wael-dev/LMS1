@@ -1,0 +1,22 @@
+{
+  "header": {
+    "home": "Home",
+    "courses": "Courses",
+    "myLearning": "My Learning",
+    "teach": "Teach",
+    "notifications": "Notifications",
+    "cart": "Shopping Cart",
+    "profileSettings": "Profile Settings",
+    "instructorDashboard": "Instructor Dashboard",
+    "signin":"Login",
+    "signup":"Sign Up",
+    "signout":"Sign Out",
+    "lang":"Language",
+    "search": "Search for anything..."
+  },
+  "time": {
+    "now": "Now"
+  },
+  "previous": "Previous",
+  "next": "Next"
+}

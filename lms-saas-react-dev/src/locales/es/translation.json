@@ -1,0 +1,22 @@
+{
+  "header": {
+    "home": "Inicio",
+    "courses": "Cursos",
+    "myLearning": "Mi aprendizaje",
+    "teach": "Enseñar",
+    "notifications": "Notificaciones",
+    "cart": "Carrito de compras",
+    "profileSettings": "Configuración del perfil",
+    "instructorDashboard": "Panel del instructor",
+    "signin": "Iniciar sesión",
+    "signup": "Registrarse",
+    "signout": "Cerrar sesión",
+    "lang": "Idioma",
+    "search": "Buscar cualquier cosa..."
+  },
+  "time": {
+    "now": "Ahora"
+  },
+  "previous": "Anterior",
+  "next": "Siguiente"
+}

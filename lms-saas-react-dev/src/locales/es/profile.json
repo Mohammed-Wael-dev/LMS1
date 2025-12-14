@@ -1,0 +1,38 @@
+{
+  "changePic": "Cambiar foto de perfil",
+  "picError": "Por favor, selecciona un archivo de imagen.",
+  "picSuccess": "¡La imagen de perfil se actualizó correctamente!",
+  "cancel": "Cancelar",
+  "editProfile": "Editar perfil",
+  "download": "Descargar",
+  "downloadDone": "¡La descarga del certificado ha comenzado!",
+  "tabs": {
+    "profileSettings": "Configuración del perfil",
+    "achievements": "Logros",
+    "certificates": "Certificados"
+  },
+  "joined": "Se unió",
+  "editForm": {
+    "fn": "Nombre",
+    "fnError": "El nombre es obligatorio",
+    "ln": "Apellido",
+    "lnError": "El apellido es obligatorio",
+    "email": "Correo electrónico",
+    "emailError": {
+      "required": "El correo electrónico es obligatorio",
+      "valid": "Por favor, introduce un correo electrónico válido."
+    },
+    "phone": "Teléfono",
+    "phoneError": {
+      "pattern": "El teléfono debe comenzar con 07 y constar de 10 dígitos",
+      "length": "El teléfono debe constar de 10 dígitos"
+    },
+    "location": "Ubicación",
+    "bio": "Biografía",
+    "success": "¡Cambios guardados correctamente!",
+    "save": "Guardar cambios"
+  },
+  "time": {
+    "now": "Ahora"
+  }
+}

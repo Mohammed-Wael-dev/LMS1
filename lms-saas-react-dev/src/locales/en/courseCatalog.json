@@ -1,0 +1,59 @@
+{
+  "title": "All Courses",
+  "subTitle": "{{totalCount}} courses available",
+  "emptyState": {
+    "title": "No courses found",
+    "subTitle": "Try adjusting your filters or search terms"
+  },
+  "sort": {
+    "sortOptions": {
+      "most_popular": "Most Popular",
+      "high_rating": "Highest Rated",
+      "newest": "Newest",
+      "price_low_to_high": "Price: Low to High",
+      "price_high_to_low": "Price: High to Low"
+    },
+    "search": "Search courses..."
+  },
+  "filters": {
+    "title": "Filters",
+    "category": {
+      "title": "Category",
+      "all": "All"
+    },
+    "level": {
+      "title": "Level",
+      "all": "All Levels",
+      "beginner": "Beginner",
+      "intermediate": "Intermediate",
+      "advanced": "Advanced"
+    },
+    "price": {
+      "title": "Price",
+      "all": "all",
+      "free": "free",
+      "paid": "paid"
+    },
+    "clear": "Clear all filters"
+  },
+  "card": {
+    "handleEnroll": {
+      "authError": "Please login first!",
+      "roleError": "Please sign in as student!",
+      "success": "You have been enrolled successfully!",
+      "failFallback": "Failed to enroll",
+      "errorFallback": "Unexpected error"
+    },
+    "bestseller": "Bestseller",
+    "preview": "Preview",
+    "free": "Free",
+    "whatYouLearn": "What you'll learn:",
+    "enrolling": "Enrolling...",
+    "enrollNow": "Enroll Now",
+    "viewCourse": "View your course",
+    "startLearning": "Start Learning"
+  },
+  "time": {
+    "now": "Now"
+  }
+}

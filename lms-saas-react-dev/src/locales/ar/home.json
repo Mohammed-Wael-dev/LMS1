@@ -1,0 +1,47 @@
+{
+  "learn": "تعلم",
+  "without": "بلا",
+  "limits": "حدود",
+  "description": "اكتشف آلاف الدورات والتخصصات من أفضل المدربين في العالم. تعلم بوتيرتك وسرعتك الخاصة.",
+  "startLearningToday": "ابدأ التعلم اليوم",
+  "exploreCourses": "استكشف الدورات",
+  "students": "طالب",
+  "courses": "دورة",
+  "languages": "لغة",
+  "featuredCourse": "الدورة المميزة",
+  "completeReactCourse": "دورة مطور React الكاملة",
+  "progress": "التقدم",
+  "lessonsCompleted": "{{completed}} من {{total}} درس مكتمل",
+  "timeRemaining": "{{hours}} ساعة {{minutes}} دقيقة متبقية",
+  "exploreTopCategories": "استكشف أهم الفئات",
+  "discoverCoursesDescription": "اكتشف الدورات في أكثر المهارات طلباً وطور مسيرتك المهنية",
+  "coursesCount": "{{count}} دورة",
+  "featuredCourses": "الدورات المميزة",
+  "featuredCoursesDescription": "دورات مختارة بعناية من خبرائنا لمساعدتك في تعلم أكثر المهارات طلباً",
+  "bestseller": "الأكثر مبيعاً",
+  "previewCourse": "معاينة الدورة",
+  "reviews": "مراجعة",
+  "onlineCourses": "دورة أونلاين",
+  "registeredStudents": "طالب مسجل",
+  "certificatesIssued": "شهادة صادرة",
+  "successRate": "معدل النجاح",
+  "title": "ماذا يقول طلابنا",
+  "subtitle": "انضم لآلاف المتعلمين الناجحين الذين غيروا مسارهم المهني",
+  "roles": {
+    "softwareEngineerGoogle": "مهندس برمجيات في جوجل",
+    "dataScientistMicrosoft": "عالم بيانات في مايكروسوفت",
+    "uxDesignerApple": "مصمم تجربة مستخدم في آبل"
+  },
+  "quotes": {
+    "sarahQuote": "الدورات هنا غيرت مسيرتي المهنية. جودة التعليم استثنائية.",
+    "michaelQuote": "انتقلت من مبتدئ إلى الحصول على وظيفة أحلامي في 6 أشهر فقط من التعلم.",
+    "emilyQuote": "المشاريع العملية والتطبيقات الواقعية أحدثت كل الفرق."
+  },
+  "title2": "مستعد لبدء رحلة التعلم؟",
+  "subtitle2": "انضم لملايين المتعلمين حول العالم واكتشف إمكاناتك من خلال دوراتنا المقدمة من الخبراء",
+  "getStartedFree": "ابدأ مجاناً",
+  "browseCourses": "تصفح الدورات",
+  "time": {
+    "now": "الآن"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "learn": "Aprende",
+  "without": "Sin",
+  "limits": "Límites",
+  "description": "Descubre miles de cursos y especializaciones de los mejores instructores del mundo. Aprende a tu propio ritmo.",
+  "startLearningToday": "Empieza a aprender hoy",
+  "exploreCourses": "Explorar cursos",
+  "students": "Estudiantes",
+  "courses": "Cursos",
+  "languages": "Idiomas",
+  "featuredCourse": "Curso destacado",
+  "completeReactCourse": "Curso completo de React para desarrolladores",
+  "progress": "Progreso",
+  "lessonsCompleted": "{{completed}} de {{total}} lecciones completadas",
+  "timeRemaining": "{{hours}}h {{minutes}}min restantes",
+  "exploreTopCategories": "Explorar categorías principales",
+  "discoverCoursesDescription": "Descubre cursos en las habilidades más demandadas y potencia tu carrera",
+  "coursesCount": "{{count}} cursos",
+  "featuredCourses": "Cursos destacados",
+  "featuredCoursesDescription": "Cursos seleccionados por nuestros expertos para ayudarte a aprender las habilidades más demandadas",
+  "bestseller": "Más vendido",
+  "previewCourse": "Vista previa del curso",
+  "reviews": "reseñas",
+  "onlineCourses": "Cursos en línea",
+  "registeredStudents": "Estudiantes registrados",
+  "certificatesIssued": "Certificados emitidos",
+  "successRate": "Tasa de éxito",
+  "title": "Lo que dicen nuestros estudiantes",
+  "subtitle": "Únete a miles de alumnos que transformaron sus carreras",
+  "roles": {
+    "softwareEngineerGoogle": "Ingeniero de software en Google",
+    "dataScientistMicrosoft": "Científico de datos en Microsoft",
+    "uxDesignerApple": "Diseñador UX en Apple"
+  },
+  "quotes": {
+    "sarahQuote": "Los cursos aquí transformaron mi carrera. La calidad de la instrucción es excepcional.",
+    "michaelQuote": "Pasé de principiante a conseguir el trabajo de mis sueños en solo 6 meses de aprendizaje.",
+    "emilyQuote": "Los proyectos prácticos y las aplicaciones reales marcaron la diferencia."
+  },
+  "title2": "¿Listo para comenzar tu camino de aprendizaje?",
+  "subtitle2": "Únete a millones de alumnos en todo el mundo y desbloquea tu potencial con cursos impartidos por expertos",
+  "getStartedFree": "Empieza gratis",
+  "browseCourses": "Explorar cursos",
+  "time": {
+    "now": "Ahora"
+  }
+}

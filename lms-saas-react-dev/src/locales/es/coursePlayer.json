@@ -1,0 +1,162 @@
+{
+  "loading": "Cargando…",
+  "handleComplete": {
+    "success": "¡Genial! Lección completada.",
+    "error": "Algo salió mal."
+  },
+  "backBtn": "Volver a los detalles del curso",
+  "progress": "Progreso",
+  "courseContent": "Contenido del curso",
+  "lessonNotes": "Notas de la lección",
+  "QA": "Preguntas y respuestas",
+  "groups": "Grupos",
+  "examSection": {
+    "submitAssessment": "Enviado",
+    "submitExam": {
+      "success": "Enviado (intento {{nextAttempt}})",
+      "error": "Solo tienes {{MAX_ATTEMPTS}} intentos."
+    },
+    "timeLimit": "Límite de tiempo",
+    "min": "min",
+    "passingScore": "Puntuación de aprobación",
+    "attempt": "Intento",
+    "of": "de,",
+    "ansAll": "Responde todas las preguntas para enviar.",
+    "attemptsLeft": " Intentos restantes",
+    "noAttempts": "No quedan más intentos.",
+    "submitting": "Enviando...",
+    "submit": "Enviar",
+    "quiz": "Cuestionario",
+    "exam": "Examen",
+    "loadRes": "Cargando resultados...",
+    "submittedAt": "Enviado a las",
+    "score": "Puntuación",
+    "passed": "Aprobado",
+    "failed": "Reprobado",
+    "pass": "aprobación",
+    "correct": "Correcto",
+    "incorrect": "Incorrecto",
+    "noRetake": "Aprobado — sin reintento",
+    "noAttemptsLeft": "No hay intentos restantes",
+    "retake": "Reintentar",
+    "continue": "Continuar aprendiendo",
+    "viewResult": "Ver detalles del resultado",
+    "resultModal": {
+      "close": "Cerrar ventana de resultados",
+      "attemptLabel": "Intento #{{attempt}}",
+      "title": "Resultado del {{type}}",
+      "subtitle": "{{correct}} de {{total}} respuestas correctas",
+      "scoreLabel": "Puntuación",
+      "passed": "¡Felicidades! Aprobaste este {{type}}.",
+      "failed": "¡Sigue intentando! Puedes repetir este {{type}}.",
+      "passedTag": "Aprobado",
+      "failedTag": "Reprobado",
+      "viewCertificate": "Ver certificado",
+      "retake": "Repetir examen"
+    }
+  },
+  "notesSection": {
+    "handleSave": {
+      "success": "¡Notas guardadas correctamente!",
+      "error": "Error desconocido"
+    },
+    "save": "Guardar notas",
+    "saveSucceed": "✓ Notas guardadas para esta lección",
+    "form": {
+      "title": "título",
+      "placeholder": "Toma notas mientras ves el contenido...",
+      "cancel": "Cancelar",
+      "edit": "✏️ Editar",
+      "save": "Guardar"
+    }
+  },
+  "qaSection": { 
+    "replyForm": {
+      "answerUpdated": "Respuesta actualizada",
+      "replyPosted": "Respuesta publicada",
+      "replyingTo": "Respondiendo a",
+      "editAnswer": "Editar respuesta",
+      "updateYourAnswer": "Actualiza tu respuesta...",
+      "writeReply": "Escribe tu respuesta...",
+      "cancel": "Cancelar",
+      "updateAnswer": "Actualizar respuesta",
+      "reply": "Responder"
+    },
+    "handleSubmitQuestion": {
+      "questionUpdated": "Pregunta actualizada",
+      "questionPosted": "Pregunta publicada",
+      "error": "Error al enviar la pregunta"
+    },
+    "title": "Preguntas y respuestas",
+    "edit": "✏️ Editar",
+    "instructor": "Instructor",
+    "empty": "No hay preguntas para esta lección.",
+    "cancelEdit": "Cancelar edición",
+    "qForm": {
+      "error": "Por favor, escribe algo.",
+      "editPlaceholder": "Actualiza tu pregunta...",
+      "addPlaceholder": "Escribe tu pregunta aquí...",
+      "editBtn": "Actualizar pregunta",
+      "addBtn": "Hacer pregunta"
+    }
+  },
+  "reactions": {
+    "removeReact": "Eliminar reacción",
+    "like": "Me gusta",
+    "love": "Me encanta",
+    "clap": "Aplauso"
+  },
+  "content": {
+    "back": "Atrás",
+    "next": "Siguiente",
+    "markComplete": "Marcar como completado",
+    "downloading": "Descargando…",
+    "download": "Descargar",
+    "noVideo": "El video aún no está disponible para esta lección — mostrando solo el póster."
+  },
+  "video": {
+    "error": "Esta fuente no se puede reproducir (permisos/formato/CORS).",
+    "speed": "Velocidad"
+  },
+  "groupsSection": {
+    "title": "Grupos de estudio",
+    "subtitle": "Únete a grupos de estudio para colaborar con otros estudiantes y debatir el contenido del curso.",
+    "membersLabel": "Miembros:",
+    "members_one": "{{count}} miembro",
+    "members_other": "{{count}} miembros",
+    "join": "Unirse",
+    "leave": "Salir",
+    "recentDiscussion": "Debate reciente",
+    "showChat": "Mostrar chat",
+    "noMessages": "Aún no hay mensajes. ¡Inicia la conversación!",
+    "emptyTitle": "Aún no hay grupos de estudio",
+    "emptySubtitle": "Los grupos de estudio aparecerán aquí cuando los cree tu instructor."
+  },
+  "chats": {
+    "groupHeader": {
+      "membersCount_one": "{{count}} miembro",
+      "membersCount_other": "{{count}} miembros"
+    },
+    "sidebar": {
+      "membersTitle": "Miembros",
+      "online": "En línea",
+      "offline": "Desconectado",
+      "leaveGroup": "Salir del grupo"
+    },
+    "chatHeader": {
+      "title": "Chat del grupo",
+      "onlineNow": "{{count}} en línea ahora"
+    },
+    "discussion": {
+      "noMessagesTitle": "Aún no hay mensajes",
+      "noMessagesSubtitle": "¡Inicia la conversación con tu grupo de estudio!"
+    },
+    "composer": {
+      "placeholder": "Mensaje para {{groupName}}...",
+      "hint": "Pulsa Enter para enviar, Shift+Enter para nueva línea"
+    }
+  },
+  "time": {
+    "now": "Ahora"
+  }
+}

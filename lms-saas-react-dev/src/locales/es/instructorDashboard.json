@@ -1,0 +1,75 @@
+{
+  "mainTitle": "Panel del instructor",
+  "subTitle": "Gestiona tus cursos y sigue tu éxito docente.",
+  "createCourse": "Crear curso",
+  "tabs": {
+    "myCourses": "Mis cursos",
+    "analytics": "Analíticas",
+    "reviews": "Reseñas"
+  },
+  "createCourseModal": {
+    "title": "Crear curso nuevo",
+    "label": "Título del curso *",
+    "error": "El título es obligatorio",
+    "errorFallback": "Elige un nombre claro y descriptivo que indique a los estudiantes lo que aprenderán.",
+    "placeholder": "Introduce el nombre de tu curso (p. ej., Curso completo de React para desarrolladores)",
+    "description": {
+      "title": "¿Qué sucede después?",
+      "item0": "• Se te llevará al creador de cursos",
+      "item1": "• Añade la descripción y los detalles del curso",
+      "item2": "• Crea tu plan de estudios y lecciones",
+      "item3": "• Define el precio y publica cuando esté listo"
+    },
+    "cancel": "Cancelar",
+    "creating": "Creando..."
+  },
+  "statisticsCards": {
+    "totalStudents": "Total de estudiantes",
+    "totalRevenue": "Ingresos totales",
+    "averageRating": "Calificación promedio",
+    "totalReviews": "Total de reseñas",
+    "vsLastMonth": "vs. mes pasado"
+  },
+  "courses": {
+    "deleteMessage": "¡Curso eliminado correctamente!",
+    "students": "estudiantes",
+    "reviews": "reseñas",
+    "revenue": "Ingresos",
+    "completion": "Finalización",
+    "publish": "Publicado",
+    "draft": "Borrador",
+    "viewCourse": "Ver curso",
+    "editCourse": "Editar curso",
+    "deleteCourse": "Eliminar curso",
+    "delConfirmText": "Una vez elimines este curso, no podrás recuperarlo.",
+    "delConfirmTitle": "Eliminar el curso {{title}}",
+    "delete": "Eliminar"
+  },
+  "analytics": {
+    "coursePerformance": "Rendimiento del curso"
+  },
+  "recentReviews": {
+    "title": "Reseñas recientes",
+    "anonymous": "anónimo"
+  },
+  "sidebar": {
+    "quickActions": "Acciones rápidas",
+    "viewAllReviews": "Ver todas las reseñas",
+    "downloadReports": "Descargar informes",
+    "managePayouts": "Gestionar pagos",
+    "thisMonth": "Este mes",
+    "newStudents": "Nuevos estudiantes",
+    "revenue": "Ingresos",
+    "newReviews": "Nuevas reseñas",
+    "tipsTitle": "Consejos para el éxito",
+    "tipEngageTitle": "Interactúa con los estudiantes",
+    "tipEngageDesc": "Responde a preguntas y reseñas con rapidez",
+    "tipUpdateTitle": "Actualiza el contenido",
+    "tipUpdateDesc": "Mantén tus cursos al día y relevantes",
+    "tipPromoteTitle": "Promociona los cursos",
+    "tipPromoteDesc": "Comparte en redes sociales y contactos"
+  },
+  "time": {
+    "now": "Ahora"
+  }
+}

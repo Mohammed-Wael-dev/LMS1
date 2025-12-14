@@ -1,0 +1,77 @@
+{
+  "mainTitle": "لوحة تحكم المدرس",
+  "subTitle": "أدِر دوراتك وتابع نجاحك التدريسي.",
+  "createCourse": "اضافة دورة",
+  "tabs": {
+    "myCourses": "دوراتي",
+    "analytics":"التحليلات",
+    "reviews": "التقييمات"
+  },
+  "createCourseModal": {
+    "title": "إنشاء دورة جديد",
+    "label":"عنوان الدورة *",
+    "error": "العنوان مطلوب",
+    "errorFallback": "اختر اسمًا واضحًا وصفيًا يوضح للطلاب ما سيتعلمونه.",
+    "placeholder": "أدخل اسم الدورة (مثال: دورة مطوّر React الشامل)",
+    "description": {
+      "title": "ماذا سيحدث لاحقًا؟",
+      "item0": "• سيتم نقلك إلى مُنشئ الدورات",
+      "item1": "• أضِف وصف الدورة وتفاصيله",
+      "item2": "• أنشئ المنهج والدروس",
+      "item3": "• حدّد التسعير وانشر عند الجاهزية"
+    },
+    "cancel": "إلغاء",
+    "creating": "جارٍ الإنشاء..."
+  },
+  "statisticsCards": {
+    "totalStudents": "إجمالي الطلاب",
+    "totalRevenue": "إجمالي الإيرادات",
+    "averageRating": "متوسط التقييم",
+    "totalReviews": "إجمالي التقييمات",
+    "vsLastMonth": "مقارنةً بالشهر الماضي"
+  },
+  "courses": {
+    "deleteMessage": "تم حذف الدورة بنجاح!",
+    "students": "الطلاب",
+    "reviews": "التقييمات",
+    "revenue": "الإيرادات",
+    "completion": "نسبة الإكمال",
+    "publish": "منشور",
+    "draft": "مسودة",
+    "viewCourse": "عرض الدورة",
+    "editCourse": "تعديل الدورة",
+    "deleteCourse": "حذف الدورة",
+    "delConfirmText": "بمجرد حذف هذه الدورة، لن تتمكن من استعادتها مرة أخرى.",
+    "delConfirmTitle": "حذف دورة {{title}}",
+    "delete": "حذف"
+  },
+  "analytics": {
+    "coursePerformance": "أداء الدورة"
+  },
+  "recentReviews": {
+    "title" :"أحدث التقييمات",
+    "anonymous": "مجهول"
+  },
+  "sidebar": {
+    "quickActions": "إجراءات سريعة",
+    "viewAllReviews": "عرض جميع التقييمات",
+    "downloadReports": "تنزيل التقارير",
+    "managePayouts": "إدارة المدفوعات",
+
+    "thisMonth": "هذا الشهر",
+    "newStudents": "طلاب جدد",
+    "revenue": "الإيرادات",
+    "newReviews": "تقييمات جديدة",
+
+    "tipsTitle": "نصائح للنجاح",
+    "tipEngageTitle": "تفاعل مع الطلاب",
+    "tipEngageDesc": "استجب للأسئلة والتقييمات بسرعة",
+    "tipUpdateTitle": "حدّث المحتوى",
+    "tipUpdateDesc": "احرص على أن تبقى مقرراتك مواكبة وذات صلة",
+    "tipPromoteTitle": "روّج للمقررات",
+    "tipPromoteDesc": "شارك على وسائل التواصل والشبكات"
+  },
+  "time": {
+    "now": "الآن"
+  }
+}

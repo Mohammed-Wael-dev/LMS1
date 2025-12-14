@@ -1,0 +1,162 @@
+{
+  "loading": "Loading…",
+  "handleComplete": {
+    "success": "Awesome! Lesson completed.",
+    "error": "Something went wrong."
+  },
+  "backBtn": "Back to Course Details",
+  "progress": "Progress",
+  "courseContent": "Course Content",
+  "lessonNotes": "Lesson Notes",
+  "QA": "Q&A",
+  "groups": "Groups",
+  "examSection": {
+    "submitAssessment": "Submitted",
+    "submitExam": {
+      "success": "Submitted (attempt {{nextAttempt}})",
+      "error": "You only have {{MAX_ATTEMPTS}} attempts."
+    },
+    "timeLimit": "Time Limit",
+    "min": "min",
+    "passingScore": "Passing Score",
+    "attempt": "Attempt",
+    "of": "of,",
+    "ansAll": "Answer all questions to submit.",
+    "attemptsLeft": " Attempts left",
+    "noAttempts": "No more attempts remaining.",
+    "submitting": "Submitting...",
+    "submit": "Submit",
+    "quiz": "Quiz",
+    "exam": "Exam",
+    "loadRes": "Loading results...",
+    "submittedAt": "Submitted at",
+    "score": "Score",
+    "passed": "Passed",
+    "failed": "Failed",
+    "pass": "pass",
+    "correct": "Correct",
+    "incorrect": "Incorrect",
+    "noRetake": "Passed — No Retake",
+    "noAttemptsLeft": "No Attempts Left",
+    "retake": "Retake",
+    "continue": "Continue Learning",
+    "viewResult": "View result details",
+    "resultModal": {
+      "close": "Close result dialog",
+      "attemptLabel": "Attempt #{{attempt}}",
+      "title": "{{type}} result",
+      "subtitle": "{{correct}} out of {{total}} correct answers",
+      "scoreLabel": "Score",
+      "passed": "Congratulations! You passed this {{type}}.",
+      "failed": "Keep going! You can retake this {{type}}.",
+      "passedTag": "Passed",
+      "failedTag": "Failed",
+      "viewCertificate": "View certificate",
+      "retake": "Retake exam"
+    }
+  },
+  "notesSection": {
+    "handleSave": {
+      "success": "Notes saved successfully!",
+      "error": "Unknown error"
+    },
+    "save": "Save Notes",
+    "saveSucceed": "✓ Notes saved for this lesson",
+    "form": {
+      "title": "Title",
+      "placeholder": "Take notes while watching...",
+      "cancel": "Cancel",
+      "edit": "✏️ Edit",
+      "save": "Save"
+    }
+  },
+  "qaSection":{ 
+    "replyForm": {
+      "answerUpdated": "Answer updated",
+      "replyPosted": "Reply posted",
+      "replyingTo": "Replying to",
+      "editAnswer" :"Edit Answer",
+      "updateYourAnswer": "Update your answer...",
+      "writeReply": "Write your reply...",
+      "cancel": "Cancel",
+      "updateAnswer": "Update Answer",
+      "reply": "Reply"
+    },
+    "handleSubmitQuestion": {
+      "questionUpdated": "Question updated",
+      "questionPosted": "Question posted",
+      "error": "Failed to submit question"
+    },
+    "title": "Questions & Answers",
+    "edit": "✏️ Edit",
+    "instructor": "Instructor",
+    "empty": "There are no questions for this lesson.",
+    "cancelEdit": "Cancel edit",
+    "qForm": {
+      "error": "Please write something.",
+      "editPlaceholder": "Update your question...",
+      "addPlaceholder": "Type your question here...",
+      "editBtn": "Update Question",
+      "addBtn": "Ask Question"
+    }
+  },
+  "reactions": {
+    "removeReact": "Remove reaction",
+    "like": "Like",
+    "love": "Love",
+    "clap": "Clap"
+  },
+  "content": {
+    "back": "Back",
+    "next": "Next",
+    "markComplete": "Mark as completed",
+    "downloading": "Downloading…",
+    "download": "Download",
+    "noVideo": "Video not available for this lesson yet — showing poster only."
+  },
+  "video": {
+    "error": "This source can’t be played (permissions/format/CORS).",
+    "speed": "Speed"
+  },
+  "groupsSection": {
+    "title": "Study Groups",
+    "subtitle": "Join study groups to collaborate with fellow students and discuss course content.",
+    "membersLabel": "Members:",
+    "members_one": "{{count}} member",
+    "members_other": "{{count}} members",
+    "join": "Join",
+    "leave": "Leave",
+    "recentDiscussion": "Recent Discussion",
+    "showChat": "Show Chat",
+    "noMessages": "No messages yet. Start the conversation!",
+    "emptyTitle": "No Study Groups Yet",
+    "emptySubtitle": "Study groups will appear here when they're created by your instructor."
+  },
+  "chats": {
+    "groupHeader": {
+      "membersCount_one": "{{count}} member",
+      "membersCount_other": "{{count}} members"
+    },
+    "sidebar": {
+      "membersTitle": "Members",
+      "online": "Online",
+      "offline": "Offline",
+      "leaveGroup": "Leave Group"
+    },
+    "chatHeader": {
+      "title": "Group Chat",
+      "onlineNow": "{{count}} online now"
+    },
+    "discussion": {
+      "noMessagesTitle": "No messages yet",
+      "noMessagesSubtitle": "Start the conversation with your study group!"
+    },
+    "composer": {
+      "placeholder": "Message {{groupName}}...",
+      "hint": "Press Enter to send, Shift+Enter for new line"
+    }
+  },
+  "time": {
+    "now": "Now"
+  }
+}

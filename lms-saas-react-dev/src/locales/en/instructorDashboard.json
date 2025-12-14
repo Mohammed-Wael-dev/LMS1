@@ -1,0 +1,77 @@
+{
+  "mainTitle": "Instructor Dashboard",
+  "subTitle": "Manage your courses and track your teaching success.",
+  "createCourse": "Create Course",
+  "tabs": {
+    "myCourses": "My Courses",
+    "analytics":"Analytics",
+    "reviews": "Reviews"
+  },
+  "createCourseModal": {
+    "title": "Create New Course",
+    "label":"Course Title *",
+    "error": "Title is required",
+    "errorFallback": "Choose a clear, descriptive name that tells students what they'll learn.",
+    "placeholder": "Enter your course name (e.g., Complete React Developer Course)",
+    "description": {
+      "title": "What happens next?",
+      "item0": "• You'll be taken to the course builder",
+      "item1": "• Add course description and details",
+      "item2": "• Create your curriculum and lessons",
+      "item3": "• Set pricing and publish when ready"
+    },
+    "cancel": "Cancel",
+    "creating": "Creating..."
+  },
+  "statisticsCards": {
+    "totalStudents": "Total students",
+    "totalRevenue": "Total Revenue",
+    "averageRating": "Average Rating",
+    "totalReviews": "Total Reviews",
+    "vsLastMonth": "vs last month"
+  },
+  "courses": {
+    "deleteMessage": "Course deleted successfully!",
+    "students": "students",
+    "reviews": "reviews",
+    "revenue": "Revenue",
+    "completion": "Completion",
+    "publish": "Published",
+    "draft": "Draft",
+    "viewCourse": "View Course",
+    "editCourse": "Edit Course",
+    "deleteCourse": "Delete Course",
+    "delConfirmText": "Once you delete this course, you will not be able to retrieve it again.",
+    "delConfirmTitle": "Delete {{title}} course",
+    "delete": "Delete"
+  },
+  "analytics": {
+    "coursePerformance": "Course Performance"
+  },
+  "recentReviews": {
+    "title" :"Recent Reviews",
+    "anonymous": "Anonymous"
+  },
+  "sidebar" :{
+    "quickActions": "Quick Actions",
+    "viewAllReviews": "View All Reviews",
+    "downloadReports": "Download Reports",
+    "managePayouts": "Manage Payouts",
+
+    "thisMonth": "This Month",
+    "newStudents": "New Students",
+    "revenue": "Revenue",
+    "newReviews": "New Reviews",
+
+    "tipsTitle": "Tips for Success",
+    "tipEngageTitle": "Engage with Students",
+    "tipEngageDesc": "Respond to questions and reviews promptly",
+    "tipUpdateTitle": "Update Content",
+    "tipUpdateDesc": "Keep your courses current and relevant",
+    "tipPromoteTitle": "Promote Courses",
+    "tipPromoteDesc": "Share on social media and networks"
+  },
+  "time": {
+    "now": "Now"
+  }
+}

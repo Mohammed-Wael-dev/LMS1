@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>لوحة تحكم إحصائيات فورم العراق</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        :root {
+            --primary-color: #2c3e50;
+            --secondary-color: #3498db;
+            --success-color: #27ae60;
+            --warning-color: #f39c12;
+            --danger-color: #e74c3c;
+            --info-color: #17a2b8;
+            --light-color: #f8f9fa;
+            --dark-color: #343a40;
+        }
+
+        body {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            min-height: 100vh;
+        }
+
+        .main-container {
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 20px;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+            margin: 20px;
+            padding: 30px;
+            backdrop-filter: blur(10px);
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+            padding: 20px;
+            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+            color: white;
+            border-radius: 15px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        .header h1 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        }
+
+        .header p {
+            font-size: 1.1rem;
+            opacity: 0.9;
+        }
+
+        .stats-card {
+            background: white;
+            border-radius: 15px;
+            padding: 25px;
+            margin-bottom: 20px;
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+            border: none;
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .stats-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 4px;
+            background: linear-gradient(90deg, var(--secondary-color), var(--info-color));
+        }
+
+        .stats-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
+        }
+
+        .stats-icon {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+            color: white;
+            margin-bottom: 15px;
+        }
+
+        .stats-number {
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: var(--primary-color);
+            margin-bottom: 5px;
+        }
+
+        .stats-label {
+            font-size: 1rem;
+            color: #6c757d;
+            font-weight: 500;
+        }
+
+        .filters-section {
+            background: white;
+            border-radius: 15px;
+            padding: 25px;
+            margin-bottom: 30px;
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+        }
+
+        .filter-group {
+            margin-bottom: 20px;
+        }
+
+        .filter-label {
+            font-weight: 600;
+            color: var(--primary-color);
+            margin-bottom: 8px;
+        }
+
+        .form-control, .form-select {
+            border-radius: 10px;
+            border: 2px solid #e9ecef;
+            padding: 12px 15px;
+            transition: all 0.3s ease;
+        }
+
+        .form-control:focus, .form-select:focus {
+            border-color: var(--secondary-color);
+            box-shadow: 0 0 0 0.2rem rgba(52, 152, 219, 0.25);
+        }
+
+        .btn-primary {
+            background: linear-gradient(135deg, var(--secondary-color), var(--info-color));
+            border: none;
+            border-radius: 10px;
+            padding: 12px 30px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 20px rgba(52, 152, 219, 0.3);
+        }
+
+        .chart-container {
+            background: white;
+            border-radius: 15px;
+            padding: 25px;
+            margin-bottom: 30px;
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+        }
+
+        .chart-title {
+            font-size: 1.5rem;
+            font-weight: 600;
+            color: var(--primary-color);
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .table-container {
+            background: white;
+            border-radius: 15px;
+            padding: 25px;
+            margin-bottom: 30px;
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+        }
+
+        .table {
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        .table thead th {
+            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+            color: white;
+            border: none;
+            font-weight: 600;
+            padding: 15px;
+        }
+
+        .table tbody td {
+            padding: 15px;
+            border-color: #e9ecef;
+        }
+
+        .table tbody tr:hover {
+            background-color: #f8f9fa;
+        }
+
+        .badge {
+            padding: 8px 12px;
+            border-radius: 20px;
+            font-weight: 500;
+        }
+
+        .refresh-btn {
+            position: fixed;
+            bottom: 30px;
+            left: 30px;
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, var(--success-color), var(--info-color));
+            border: none;
+            color: white;
+            font-size: 20px;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+            transition: all 0.3s ease;
+        }
+
+        .refresh-btn:hover {
+            transform: scale(1.1);
+            box-shadow: 0 12px 25px rgba(0, 0, 0, 0.3);
+        }
+
+        .loading {
+            display: none;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .spinner-border {
+            color: var(--secondary-color);
+        }
+
+        @media (max-width: 768px) {
+            .main-container {
+                margin: 10px;
+                padding: 20px;
+            }
+            
+            .header h1 {
+                font-size: 2rem;
+            }
+            
+            .stats-number {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="main-container">
+        <!-- Header -->
+        <div class="header">
+            <h1><i class="fas fa-chart-line"></i> لوحة تحكم إحصائيات فورم العراق</h1>
+            <p>مراقبة وتحليل زيارات وتقديمات النماذج</p>
+        </div>
+
+        <!-- Filters Section -->
+        <div class="filters-section">
+            <h3 class="mb-4"><i class="fas fa-filter"></i> فلاتر البحث</h3>
+            <form method="GET" id="filtersForm">
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="filter-group">
+                            <label class="filter-label">من تاريخ</label>
+                            <input type="date" name="date_from" class="form-control" value="{{ filters.date_from }}">
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="filter-group">
+                            <label class="filter-label">إلى تاريخ</label>
+                            <input type="date" name="date_to" class="form-control" value="{{ filters.date_to }}">
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="filter-group">
+                            <label class="filter-label">نوع العملية</label>
+                            <select name="action_type" class="form-select">
+                                {% for value, label in action_choices %}
+                                    <option value="{{ value }}" {% if filters.action_type == value %}selected{% endif %}>{{ label }}</option>
+                                {% endfor %}
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="filter-group">
+                            <label class="filter-label">عنوان IP</label>
+                            <input type="text" name="ip_address" class="form-control" placeholder="ابحث عن IP" value="{{ filters.ip_address }}">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="filter-group">
+                            <label class="filter-label">المصدر</label>
+                            <select name="source" class="form-select">
+                                {% for value, label in source_choices %}
+                                    <option value="{{ value }}" {% if filters.source == value %}selected{% endif %}>{{ label }}</option>
+                                {% endfor %}
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-3">
+                    <div class="col-12 text-center">
+                        <button type="submit" class="btn btn-primary me-2">
+                            <i class="fas fa-search"></i> تطبيق الفلاتر
+                        </button>
+                        <a href="{% url 'iraq_analytics_dashboard' %}" class="btn btn-outline-secondary">
+                            <i class="fas fa-refresh"></i> إعادة تعيين
+                        </a>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+        <!-- Loading -->
+        <div class="loading" id="loading">
+            <div class="spinner-border" role="status">
+                <span class="visually-hidden">جاري التحميل...</span>
+            </div>
+            <p class="mt-2">جاري تحديث البيانات...</p>
+        </div>
+
+        <!-- Statistics Cards -->
+        <div class="row" id="statsCards">
+            <div class="col-lg-3 col-md-6">
+                <div class="stats-card">
+                    <div class="stats-icon" style="background: linear-gradient(135deg, var(--info-color), var(--secondary-color));">
+                        <i class="fas fa-eye"></i>
+                    </div>
+                    <div class="stats-number">{{ total_page_visits }}</div>
+                    <div class="stats-label">إجمالي الزيارات</div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="stats-card">
+                    <div class="stats-icon" style="background: linear-gradient(135deg, var(--success-color), var(--info-color));">
+                        <i class="fas fa-file-alt"></i>
+                    </div>
+                    <div class="stats-number">{{ total_form_submissions }}</div>
+                    <div class="stats-label">تقديمات النماذج</div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="stats-card">
+                    <div class="stats-icon" style="background: linear-gradient(135deg, var(--warning-color), var(--danger-color));">
+                        <i class="fas fa-globe"></i>
+                    </div>
+                    <div class="stats-number">{{ unique_ips }}</div>
+                    <div class="stats-label">عناوين IP فريدة</div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="stats-card">
+                    <div class="stats-icon" style="background: linear-gradient(135deg, var(--primary-color), var(--dark-color));">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <div class="stats-number">{{ total_records }}</div>
+                    <div class="stats-label">إجمالي السجلات</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Time-based Statistics -->
+        <div class="row">
+            <div class="col-lg-4 col-md-6">
+                <div class="stats-card">
+                    <div class="stats-icon" style="background: linear-gradient(135deg, var(--success-color), var(--info-color));">
+                        <i class="fas fa-calendar-day"></i>
+                    </div>
+                    <div class="stats-number">{{ today_visits }}</div>
+                    <div class="stats-label">زيارات اليوم</div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="stats-card">
+                    <div class="stats-icon" style="background: linear-gradient(135deg, var(--warning-color), var(--success-color));">
+                        <i class="fas fa-calendar-week"></i>
+                    </div>
+                    <div class="stats-number">{{ week_visits }}</div>
+                    <div class="stats-label">زيارات آخر 7 أيام</div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="stats-card">
+                    <div class="stats-icon" style="background: linear-gradient(135deg, var(--info-color), var(--primary-color));">
+                        <i class="fas fa-calendar-alt"></i>
+                    </div>
+                    <div class="stats-number">{{ month_visits }}</div>
+                    <div class="stats-label">زيارات آخر 30 يوم</div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Source Statistics Table -->
+        <div class="table-container">
+            <h3 class="chart-title">إحصائيات حسب المصدر</h3>
+            <div class="table-responsive">
+                <table class="table table-hover">
+                    <thead>
+                        <tr>
+                            <th>المصدر</th>
+                            <th>إجمالي العمليات</th>
+                            <th>الزيارات</th>
+                            <th>تقديمات النماذج</th>
+                            <th>النسبة</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for source in source_stats %}
+                        <tr>
+                            <td>
+                                {% if source.source %}
+                                    <span class="badge bg-info">{{ source.source }}</span>
+                                {% else %}
+                                    <span class="badge bg-secondary">غير محدد</span>
+                                {% endif %}
+                            </td>
+                            <td><span class="badge bg-primary">{{ source.count }}</span></td>
+                            <td>
+                                {% for action in source_action_stats %}
+                                    {% if action.source == source.source and action.action_type == 'page_visit' %}
+                                        <span class="badge bg-info">{{ action.count }}</span>
+                                    {% endif %}
+                                {% endfor %}
+                            </td>
+                            <td>
+                                {% for action in source_action_stats %}
+                                    {% if action.source == source.source and action.action_type == 'form_submission' %}
+                                        <span class="badge bg-success">{{ action.count }}</span>
+                                    {% endif %}
+                                {% endfor %}
+                            </td>
+                            <td>
+                                <div class="progress" style="height: 20px;">
+                                    {% widthratio source.count total_records 100 as percentage %}
+                                    <div class="progress-bar" role="progressbar" 
+                                         style="width: {{ percentage }}%">
+                                        {{ percentage }}%
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        {% empty %}
+                        <tr>
+                            <td colspan="5" class="text-center">لا توجد بيانات متاحة</td>
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <!-- Top IPs Table -->
+        <div class="table-container">
+            <h3 class="chart-title">أكثر عناوين IP نشاطاً</h3>
+            <div class="table-responsive">
+                <table class="table table-hover">
+                    <thead>
+                        <tr>
+                            <th>عنوان IP</th>
+                            <th>إجمالي العمليات</th>
+                            <th>الزيارات</th>
+                            <th>تقديمات النماذج</th>
+                            <th>النسبة</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for ip in top_ips %}
+                        <tr>
+                            <td><code>{{ ip.ip_address }}</code></td>
+                            <td><span class="badge bg-primary">{{ ip.total_actions }}</span></td>
+                            <td><span class="badge bg-info">{{ ip.visits }}</span></td>
+                            <td><span class="badge bg-success">{{ ip.submissions }}</span></td>
+                            <td>
+                                <div class="progress" style="height: 20px;">
+                                    {% widthratio ip.total_actions total_records 100 as percentage %}
+                                    <div class="progress-bar" role="progressbar" 
+                                         style="width: {{ percentage }}%">
+                                        {{ percentage }}%
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        {% empty %}
+                        <tr>
+                            <td colspan="5" class="text-center">لا توجد بيانات متاحة</td>
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <!-- Refresh Button -->
+    <button class="refresh-btn" onclick="refreshData()" title="تحديث البيانات">
+        <i class="fas fa-sync-alt"></i>
+    </button>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        // Refresh function
+        function refreshData() {
+            document.getElementById('loading').style.display = 'block';
+            document.getElementById('statsCards').style.opacity = '0.5';
+            
+            setTimeout(() => {
+                window.location.reload();
+            }, 1000);
+        }
+
+        // Auto refresh every 5 minutes
+        setInterval(refreshData, 300000);
+
+        // Form submission with loading
+        document.getElementById('filtersForm').addEventListener('submit', function() {
+            document.getElementById('loading').style.display = 'block';
+        });
+    </script>
+</body>
+</html>

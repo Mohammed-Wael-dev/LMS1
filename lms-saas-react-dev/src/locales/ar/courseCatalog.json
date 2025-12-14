@@ -1,0 +1,59 @@
+{
+  "title": "جميع الدورات",
+  "subTitle": "{{totalCount}} دورة متاحة",
+  "emptyState": {
+    "title": "لم يتم العثور على دورات",
+    "subTitle": "جرّب تعديل عوامل التصفية أو كلمات البحث"
+  },
+  "sort": {
+    "sortOptions": {
+      "most_popular": "الأكثر شيوعًا",
+      "high_rating": "الأعلى تقييمًا",
+      "newest": "الأحدث",
+      "price_low_to_high": "السعر: من الأقل إلى الأعلى",
+      "price_high_to_low": "السعر: من الأعلى إلى الأقل"
+    },
+    "search": "ابحث عن الدورات..."
+  },
+  "filters": {
+    "title": "عوامل التصفية",
+    "category": {
+      "title": "الفئة",
+      "all": "الكل"
+    },
+    "level": {
+      "title": "المستوى",
+      "all": "جميع المستويات",
+      "beginner": "مبتدئ",
+      "intermediate": "متوسط",
+      "advanced": "متقدم"
+    },
+    "price": {
+      "title": "السعر",
+      "all": "الكل",
+      "free": "مجاني",
+      "paid": "مدفوع"
+    },
+    "clear": "مسح جميع عوامل التصفية"
+  },
+  "card": {
+    "handleEnroll": {
+      "authError": "يُرجى تسجيل الدخول أولًا!",
+      "roleError": "يُرجى تسجيل الدخول بصفتك طالبًا!",
+      "success": "تم تسجيلك في الدورة بنجاح!",
+      "failFallback": "فشل التسجيل",
+      "errorFallback": "خطأ غير متوقع"
+    },
+    "bestseller": "الأكثر مبيعًا",
+    "preview": "معاينة",
+    "free": "مجاني",
+    "whatYouLearn": "ما الذي ستتعلمه:",
+    "enrolling": "جارٍ التسجيل...",
+    "enrollNow": "سجّل الآن",
+    "viewCourse": "عرض دورتك",
+    "startLearning": "ابدأ التعلّم"
+  },
+  "time": {
+    "now": "الآن"
+  }
+}
