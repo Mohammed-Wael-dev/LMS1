@@ -7,13 +7,13 @@ export const USER_KEY = "lms-user";
 // export const BASE_URL = "https://ollms-api.vision-jo.com/api/";
 // export const BASE_URL = "https://test-lms-api.vision-jo.com/api/";
 
-const api_url =
-  window.location.href.includes("vercel")
-    ? "https://ollms-api.vision-jo.com/"
-    : window.location.href.includes("localhost")
-    ? "http://localhost:8000/"
-    : // ? "https://test-lms-api.vision-jo.com/"
-      toApiURL(window.location.origin);
+const api_url = "https://rami-lms-demo-zzawi.ondigitalocean.app/";
+// window.location.href.includes("vercel")
+//   ? "https://rami-lms-demo-zzawi.ondigitalocean.app/"
+//   : window.location.href.includes("localhost")
+//   ? "http://localhost:8000/"
+//   : // ? "https://test-lms-api.vision-jo.com/"
+//     toApiURL(window.location.origin);
 export const BASE_URL = `${api_url}api/`;
 
 export function toApiURL(input: string) {
